@@ -20,19 +20,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">O projeto</a>
+            <a class="nav-link active" aria-current="page" href="#projeto">O projeto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">O vale que queremos</a>
+            <a class="nav-link" href="#vale">O vale que queremos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Indicadores</a>
+            <a class="nav-link" href="#indicadores">Indicadores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Ações estrátegicas</a>
+            <a class="nav-link" href="#acoes">Ações estrátegicas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Citvale</a>
+            <a class="nav-link" href="#citvale">Citvale</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -43,15 +43,31 @@
     </div>
   </nav>
 <!--Menu-->
-<br> <br>
+<br>
 <!--Carrosel-->
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="width: 1000px; height:600px; margin: auto;">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+<style>
+
+.h1{
+  color: #000;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+  align-items: center;
+}
+
+</style>
+
+  <h1>Vale do Futuro</h1>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="width: 800px; height:600px; margin: auto;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <br> <br>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/fatec-registro.jpg"  class="d-block w-100" alt="...">
@@ -83,9 +99,78 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <br>
   </div>
 
 <!--Fim do carrosel-->
+
+<style>
+  .container {
+	width: 90%;
+	height: fit-content;
+	margin: 0 auto;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container#content {
+	width: 100%;
+	padding: 3% 5%;
+}
+
+.content-container {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content-container .dados {
+	margin: 40px 0;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.content-container .dados div:not(:first-child) {
+	margin-left: 40px;
+}
+
+</style>
+
+<!-- content-container -->
+<div class="container" id="content">
+  <div class="content-container" id="projeto">
+    
+  </div>
+</div>
+
+<!-- content-container -->
+<div class="container" id="content">
+  <div class="content-container" id="vale">
+    
+  </div>
+</div>
+
+<!-- content-container -->
+<div class="container" id="content">
+  <div class="content-container" id="indicadores">
+    
+  </div>
+</div>
+
+<!-- content-container -->
+<div class="container" id="content">
+  <div class="content-container" id="acoes">
+    
+  </div>
+</div>
+
+<!-- content-container -->
+<div class="container" id="content">
+  <div class="content-container" id="citvale">
+    
+  </div>
+</div>
 
 
 
